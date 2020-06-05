@@ -1,0 +1,125 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.Information .title{
+	flex:0 0 100%;
+	max-width: 100%;
+}
+.Information .title h1{
+	display: inline-block;
+	font-size:35px;
+	transform: uppercase;
+	font-weight: 700;
+	margin:0 0 10px;
+	color:#000000;
+	position: relative;
+	padding-bottom:5px;
+	padding-top: 0px;
+}
+.Information .title h1:before{
+	content:'';
+	left:0;
+	position: absolute;
+	height: 2px;
+	right:40%;
+	background-color: #febd01;
+	bottom:0px;
+
+}	
+.text-uppercase{
+	text-transform:uppercase;
+}
+.Information .title p.small{
+	display: block;
+	font-size:14px;
+	color:#838383;
+	font-weight:400;
+	letter-spacing: 2px;
+}
+.Information .about-content{
+	margin-top: 0px;
+	
+}
+.Information .about-content .img{
+	flex: 0 0 20%;
+	max-width:20%;
+}
+.Information .about-content .img img{
+	width:100%;
+	display: block;
+}
+.Information .about-content .text{
+	margin-top: 10px;
+	flex: 0 0 66.66%;
+	max-width: 66.66%;
+	padding-left: 30px;
+}
+.Information .about-content .text h4{
+	font-size:25px;
+	font-weight: 600;
+	margin:0 0 10px;
+	color:#000000;
+	font-family: Blippo, fantasy;
+}
+.Information .about-content .text h6{
+	font-size:20px;
+	font-weight: 500;
+	margin:0 0 15px;
+	color:#000000;
+}
+.Information .about-content .text h6 span{
+	color:#f56c42;
+}
+.Information .about-content .text p{
+	font-size:20px;
+	font-weight:400;
+	line-height:24px;
+	color:#1c1c1a;
+	margin: 0 0 20px;
+	font-family: serif;
+}
+.Information .about-content .text .info{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.Information .about-content .text .info .list{
+	flex:0 0 calc(50% - 5px);
+	max-width: calc(50% - 5px);
+	margin-top:10px;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:2px solid #dee2e6;
+	font-size: 25px;
+}
+.Information .about-content .text .info .list label{
+	padding-right: 10px;
+	color:#000000;
+	font-weight: 800;
+	font-size: 25px;
+}
+.Information .about-content .text .info .list p{
+	margin:0;
+}
+.Information .about-content .text .social{
+	padding-top: 20px;
+}
+.Information .about-content .text .social a{
+	height:30px;
+	width:30px;
+	border-radius:3px;
+	display:inline-block;
+	border:1px solid #000000;
+	background-color: #000000;
+	line-height:28px;
+	text-align:center;
+	margin:0 1px;
+}
+.Information .about-content .text .social a:hover{
+	background-color: transparent;
+}
+.Information .about-content .text .social a .fa{
+	font-size: 15px;
+	color:#ffffff;
+}

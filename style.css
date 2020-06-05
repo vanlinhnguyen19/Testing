@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+	margin: 0;
+	font-family:  'Rubik', sans-serif;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+.container{
+	max-width: 1140px
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+header .row{
+	justify-content: space-between;
+	align-items: center;
+}
+header{
+    position: absolute;
+    left:0px;
+    right:0px;
+    border-bottom: 2px solid #423940;
+    padding: 0px 30px;
+}
+header .brand-name a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 800;
+	color:#ffffff;
+	text-transform: uppercase;
+	position: relative;
+	
+}
+header .brand-name a:before{
+	content:'';
+	height: 3px;
+	background-color: #ffffff;
+	width:100%;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+header .navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header .navbar ul li{
+	margin-left: 200px;
+	display: inline-block;
+	padding-right: 50px;
+}
+header .navbar ul li a{
+	font-size: 15px;
+	text-decoration: none;
+	line-height:72px;
+	color:#ffffff;
+	font-weight: 900;
+	position: relative;
+}
+header .navbar ul li a.active::before{
+	content:'';
+	height: 3px;
+	background-color: #ffffff;
+	width:100%;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	top:100%;
+}
+.background{
+	min-height: 100vh;
+	background-image: url("image/2.jpg");
+	background-size:cover;
+	background-position: center;
+}
+.background .full-screen{
+	min-height: 100vh;
+}
+.background .content{
+	flex: 0 0 100%;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.background .content .block{
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+.background .content .block h5{
+	color:#ffffff;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+	padding:0 20px;
+}
+.background .content .block h1{
+	color:#ffffff;
+	font-size:70px;
+	font-weight:600;
+	margin: 0 0 10px;
+	padding:0 20px;
+}
+.background .content .block h3{
+	color:#ffffff;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+	padding: 0 20px;
+}
